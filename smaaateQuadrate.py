@@ -2,8 +2,8 @@ import math
 
 x = []
 
-for i in range(1, 1000):
-    for j in range(i, 1000):
+for i in range(1, 100):
+    for j in range(i, 100):
         ab = math.sqrt(i*i+j*j)
         ab -= int(ab)
         doppelt = False
